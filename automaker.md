@@ -16,14 +16,14 @@ type bellow:
 this command will create a  "hello_world" project under directory "./examples", directory struct is bellow.
 
 >./examples   
->&emsp;|-- hello_word 
+>&emsp;|-- hello_word  
 >&emsp;&emsp;|-- bin   
 >&emsp;&emsp;|-- build   
 >&emsp;&emsp;&emsp;|-- Makefile.in   
 >&emsp;&emsp;&emsp;|-- configure   
 >&emsp;&emsp;&emsp;|-- easybuild   
 >&emsp;&emsp;|-- conf   
->&emsp;&emsp;|-- include 
+>&emsp;&emsp;|-- include  
 >&emsp;&emsp;|-- lib  
 >&emsp;&emsp;|-- script   
 >&emsp;&emsp;|-- src  
