@@ -17,15 +17,15 @@ this command will create a  "hello_world" project under directory "./examples", 
 
 >./examples   
 >&emsp;|-- hello_word 
->&emsp;&emsp;|-- bin  
+>&emsp;&emsp;|-- bin   
 >&emsp;&emsp;|-- build   
 >&emsp;&emsp;&emsp;|-- Makefile.in   
 >&emsp;&emsp;&emsp;|-- configure   
 >&emsp;&emsp;&emsp;|-- easybuild   
 >&emsp;&emsp;|-- conf   
 >&emsp;&emsp;|-- include 
->&emsp;&emsp;|-- lib 
->&emsp;&emsp;|-- script  
+>&emsp;&emsp;|-- lib  
+>&emsp;&emsp;|-- script   
 >&emsp;&emsp;|-- src  
   
 ### 2. put your code to src
