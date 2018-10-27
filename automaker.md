@@ -13,24 +13,28 @@ type bellow:
 ./automaker.sh examples/hello_world
 ````   
 
-this command will create a project "hello_world" under dir "./examples", dir struct is bellow.
+this command will create a  "hello_world" project under directory "./examples", directory struct is bellow.
 
 >./examples   
->&emsp;|-- hello_word //project root dir   
->&emsp;&emsp;|-- bin //  
+>&emsp;|-- hello_word 
+>&emsp;&emsp;|-- bin  
 >&emsp;&emsp;|-- build   
 >&emsp;&emsp;&emsp;|-- Makefile.in   
 >&emsp;&emsp;&emsp;|-- configure   
 >&emsp;&emsp;&emsp;|-- easybuild   
 >&emsp;&emsp;|-- conf   
->&emsp;&emsp;|-- include //put your so's head file in this place   
->&emsp;&emsp;|-- lib //put your lib in this place  
->&emsp;&emsp;|-- script //put your script  
->&emsp;&emsp;|-- src  //put your source code in this place
+>&emsp;&emsp;|-- include 
+>&emsp;&emsp;|-- lib 
+>&emsp;&emsp;|-- script  
+>&emsp;&emsp;|-- src  
   
-| directory or file | usage |
-|-|-|
-|   hello_word   |   project root dir   |  
-|   bin  |   where your exe file will be put in   |    
-|   build  |     |    
-|     |     |    
+### 2. put your code to src
+write hello_world.c, and add file to  src directory
+````
+#include <stdio.h>
+int main(int argc; char* argv[])
+{
+	printf("hello automaker world!\n");
+	return 0;
+}
+````
