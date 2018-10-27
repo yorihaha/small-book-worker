@@ -29,7 +29,7 @@ this command will create a  "hello_world" project under directory "./examples", 
 >&emsp;&emsp;|-- src  
   
 ### 2. put your code to src
-write hello_world.c, and add file to  src directory
+write hello_world.c, and add file to "src" directory
 ````
 #include <stdio.h>
 int main(int argc; char* argv[])
@@ -37,4 +37,9 @@ int main(int argc; char* argv[])
 	printf("hello automaker world!\n");
 	return 0;
 }
+````
+### 3. compile and run
+````
+cd ./examples/hello_world/build
+./configure --bin_path=hello_world 
 ````
