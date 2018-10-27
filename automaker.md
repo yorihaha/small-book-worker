@@ -32,7 +32,7 @@ this command will create a  "hello_world" project under directory "./examples", 
 write hello_world.c, and add file to "src" directory
 ````
 #include <stdio.h>
-int main(int argc; char* argv[])
+int main(int argc, char* argv[])
 {
 	printf("hello automaker world!\n");
 	return 0;
